@@ -35,7 +35,19 @@ public class Token {
 	}
 	
 	public String getValueAsString(){
-		return (String)value;
+		switch(type){
+		case CLOSING_CURLY_BRACKET:
+		case CLOSING_ROUND_BRACKET:
+		case OPENING_ROUND_BRACKET:
+		case OPENING_CURLY_BRACKET:
+			return "" + (Character)value;
+		case NUMBER:
+			return "" + (Integer)value;
+		case IDENTIFIER:
+		case STRING:
+		default:
+			return (String)value;
+		}
 	}
 	
 	public int getValueAsInteger(){

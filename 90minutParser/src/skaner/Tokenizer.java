@@ -151,7 +151,8 @@ public class Tokenizer {
 		}
 		int j = 0;
 		for(Token i: tokens){
-			System.out.println("" + ++j + " " + i);
+			System.out.format("%3d [%21s: %20s]\n", 
+					++j, i.getType().toString(), i.getValueAsString());
 		}
 	}
 }
