@@ -11,11 +11,13 @@ public class Tokenizer {
 	private int actualCharacter;
 	private int line;
 	private int column;
+	private boolean error;
 	BufferedReader reader;
 
 	public Tokenizer(String file) throws IOException {
 		reader = new BufferedReader(new FileReader(file));
 		column = line = 0;
+		error = false;
 		nextWithoutWhitespaces();
 	}
 
@@ -82,6 +84,10 @@ public class Tokenizer {
 			}
 			return new Token(TokenType.NUMBER, Integer.parseInt(str.toString()));
 		}
+		
+		if(!eof()){
+			error = true;
+		}
 
 		return null;
 	}
@@ -94,7 +100,11 @@ public class Tokenizer {
 		return column;
 	}
 
-	public boolean eof(){
+	public boolean hasError(){
+		return error;
+	}
+	
+	private boolean eof(){
 		return -1 == actualCharacter;
 	}
 	
