@@ -1,4 +1,5 @@
-package Parser;
+package parser;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,12 +14,11 @@ public class League {
 	public String[] matchDays;
 	public ArrayList<Team> teamsInLeague = new ArrayList<Team>();
 	public ArrayList<MatchDay> scheduleOfTheLeague = new ArrayList<MatchDay>();
+	private String leagueName;
 	private String leagueUrl;
 
 	public League(String leagueURL) {
 		this.leagueUrl = leagueURL;
-		// parseSchedule(leagueURL);
-		// parseTable(leagueURL);
 	}
 
 	private void parseSchedule(String leagueURL) {
@@ -123,6 +123,7 @@ public class League {
 			}
 			String str = sb.toString();
 			String[] table = str.split(";");
+			leagueName = table[1];
 
 			StringBuilder sb2 = new StringBuilder("");
 			for (int i = 0; i < table.length - 30; i++) {
@@ -162,18 +163,20 @@ public class League {
 				temp = Arrays.copyOf(temp, 15 + howManyWordsInClubName(temp));
 
 			if (temp.length == 17 || temp.length == 23) {
-				teamsInLeague.add(new Team(j, temp[1] + " " + temp[2], Integer.parseInt(temp[3]),
-						Integer.parseInt(temp[4]), Integer.parseInt(temp[5]), Integer.parseInt(temp[6]),
-						Integer.parseInt(temp[7]), temp[8]));
+				teamsInLeague.add(new Team(j, temp[1].substring(1, temp[1].length()) + " " + temp[2],
+						Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5]),
+						Integer.parseInt(temp[6]), Integer.parseInt(temp[7]), temp[8]));
 			} else if (temp.length == 18 || temp.length == 24) {
-				teamsInLeague.add(new Team(j, temp[1] + " " + temp[2] + " " + temp[3], Integer.parseInt(temp[4]),
-						Integer.parseInt(temp[5]), Integer.parseInt(temp[6]), Integer.parseInt(temp[7]),
-						Integer.parseInt(temp[8]), temp[9]));
+				teamsInLeague.add(new Team(j, temp[1].substring(1, temp[1].length()) + " " + temp[2] + " " + temp[3],
+						Integer.parseInt(temp[4]), Integer.parseInt(temp[5]), Integer.parseInt(temp[6]),
+						Integer.parseInt(temp[7]), Integer.parseInt(temp[8]), temp[9]));
 			} else if (temp.length == 16 || temp.length == 22) {
-				teamsInLeague.add(new Team(j, temp[1], Integer.parseInt(temp[2]), Integer.parseInt(temp[3]),
-						Integer.parseInt(temp[4]), Integer.parseInt(temp[5]), Integer.parseInt(temp[6]), temp[7]));
+				teamsInLeague.add(new Team(j, temp[1].substring(1, temp[1].length()), Integer.parseInt(temp[2]),
+						Integer.parseInt(temp[3]), Integer.parseInt(temp[4]), Integer.parseInt(temp[5]),
+						Integer.parseInt(temp[6]), temp[7]));
 			} else if (temp.length == 19 || temp.length == 25) {
-				teamsInLeague.add(new Team(j, temp[1] + " " + temp[2] + " " + temp[3] + " " + temp[4],
+				teamsInLeague.add(new Team(j,
+						temp[1].substring(1, temp[1].length()) + " " + temp[2] + " " + temp[3] + " " + temp[4],
 						Integer.parseInt(temp[5]), Integer.parseInt(temp[6]), Integer.parseInt(temp[7]),
 						Integer.parseInt(temp[8]), Integer.parseInt(temp[9]), temp[10]));
 			}
@@ -259,6 +262,22 @@ public class League {
 				dateOfConcreteMatch, attendance);
 		matchday.matches.add(match);
 		scheduleOfTheLeague.add(matchday);
+	}
+
+	public String getLeagueName() {
+		return leagueName;
+	}
+
+	public void setLeagueName(String leagueName) {
+		this.leagueName = leagueName;
+	}
+
+	public String getLeagueUrl() {
+		return leagueUrl;
+	}
+
+	public void setLeagueUrl(String leagueUrl) {
+		this.leagueUrl = leagueUrl;
 	}
 
 }
