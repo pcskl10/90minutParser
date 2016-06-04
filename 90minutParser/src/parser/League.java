@@ -214,6 +214,7 @@ public class League {
 			Scanner scanerForDate = new Scanner(line);
 			date = scanerForDate.findInLine(Utensils.DATE_OF_MATCH_WITH_HOUR);
 			line = line.substring(0, line.length() - date.length());
+			scanerForDate.close();
 		}
 
 		Scanner scanerForClubNames = new Scanner(line);
@@ -222,6 +223,9 @@ public class League {
 		String homeClubName = scanerForClubNames.findInLine(Utensils.HOME_CLUB_NAME);
 		String result = scanerForResult.findInLine(Utensils.RESULT);
 		String awayClubName = scanerForResult.findInLine(Utensils.AWAY_CLUB_NAME);
+		
+		scanerForClubNames.close();
+		scanerForResult.close();
 
 		clubNamesScoreAndDate[0] = homeClubName;
 		clubNamesScoreAndDate[1] = awayClubName;
@@ -244,12 +248,14 @@ public class League {
 			Scanner scaner = new Scanner(scorersHome[i]);
 			scorersWithTimeScored[2 * i] = scaner.findInLine(Utensils.PL + "+\\s+" + Utensils.PL + "+");
 			scorersWithTimeScored[2 * i + 1] = scaner.findInLine("\\d+");
+			scaner.close();
 		}
 
 		for (int i = scorersWithTimeScored.length; i < scorersAway.length; i++) {
 			Scanner scaner = new Scanner(scorersAway[i]);
 			scorersWithTimeScored[2 * i] = scaner.findInLine(Utensils.PL + "+\\s+" + Utensils.PL + "+");
 			scorersWithTimeScored[2 * (i + 1)] = scaner.findInLine("\\d+");
+			scaner.close();
 		}
 
 		return scorersWithTimeScored;
