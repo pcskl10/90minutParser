@@ -8,47 +8,47 @@ public class NewFormatGenerator {
 	}
 
 	public static String generateLeagueName(String leagueName) {
-		return "[liga=" + leagueName + "]";
+		return "liga(" + leagueName + "){";
 	}
 
 	public static String generateTeamName(String name) {
-		return "\t[druzyna=" + name + "]";
+		return "\tdruzyna(" + name + "){";
 	}
 
 	public static String generateMatchesNumber(int number) {
-		return "\t\t[mecze]" + number + "[/mecze]";
+		return "\t\tmecze(){" + number + "}";
 	}
 
 	public static String generatePoints(int number) {
-		return "\t\t[punkty]" + number + "[/punkty]";
+		return "\t\tpunkty(){" + number + "}";
 	}
 
 	public static String generateWonMatches(int number) {
-		return "\t\t[zwyciestwa]" + number + "[/zwyciestwa]";
+		return "\t\tzwyciestwa(){" + number + "}";
 	}
 
 	public static String generateDrawMatches(int number) {
-		return "\t\t[remisy]" + number + "[/remisy]";
+		return "\t\tremisy(){" + number + "}";
 	}
 
 	public static String generateLostMatches(int number) {
-		return "\t\t[porazki]" + number + "[/porazki]";
+		return "\t\tporazki(){" + number + "}";
 	}
 
 	public static String generateGoals(String number) {
 		String tab[] = number.split("-");
 		String scored = tab[0];
 		String lost = tab[1];
-		return "\t\t[bramki]" + "\n\t\t\t[strzelone]" + scored + "[/strzelone]" + "\n\t\t\t[stracone]" + lost
-				+ "[/stracone]" + "\n\t\t[/bramki]";
+		return "\t\tbramki(){" + "\n\t\t\tstrzelone(){" + scored + "}" + "\n\t\t\tstracone(){" + lost
+				+ "}" + "\n\t\t}";
 	}
 
 	public static String generateEndTeam() {
-		return "\t\t[/druzyna]";
+		return "\t}";
 	}
 
 	public static String generateEndLeague() {
-		return "[/liga]";
+		return "}";
 	}
 
 }
