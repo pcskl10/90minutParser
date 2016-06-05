@@ -735,7 +735,7 @@ public class minut90Parser extends Parser {
 			minut90Lexer ml = new minut90Lexer(is);
 			CommonTokenStream tk = new CommonTokenStream(ml);
 			minut90Parser mp = new minut90Parser(tk);
-			mp.addParseListener(new minut90BaseListener(mp));
+			mp.addParseListener(new minut90BaseListener("liga.minut90"));
 			parser90json.minut90Parser.RContext rc = mp.r();
 			// System.out.println(rc.getText());
 //			LigaContext lc = (LigaContext) rc.getChild(0);
