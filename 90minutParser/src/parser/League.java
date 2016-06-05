@@ -201,7 +201,7 @@ public class League {
 			sb.append(tab[i] + " ");
 		}
 		String str = sb.toString();
-		if (str.matches(".+" + Utensils.PL + "+\\s+\\d+\\s+" + Utensils.PL + "+.*"))
+		if (str.matches(".+" + Utensils.PL + "+\\s+\\d{2}\\s+" + Utensils.PL + "+.*"))
 			count++;
 		return count;
 	}

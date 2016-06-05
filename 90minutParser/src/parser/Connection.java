@@ -7,8 +7,13 @@ import java.io.UnsupportedEncodingException;
 import newFormat.NewFormatGenerator;
 
 public class Connection {
+	
+	private static String url;
+	public Connection(String url) {
+		this.url = url;
+	}
 
-	public static void main(String[] args) {
+	public static void connect() {
 		/*
 		 * try {
 		 * 
@@ -23,7 +28,7 @@ public class Connection {
 		 * Auto-generated catch block e.printStackTrace(); }
 		 */
 
-		League e = new League("http://www.90minut.pl/liga/0/liga8070.html");
+		League e = new League(url);
 		e.parseTable();
 
 		PrintWriter writer;
@@ -47,9 +52,5 @@ public class Connection {
 		} catch (UnsupportedEncodingException e1) {
 			e1.printStackTrace();
 		}
-		for (int i = 0; i < e.teamsInLeague.size(); i++) {
-			// System.out.println(e.teamsInLeague.get(i).toString());
-		}
 	}
-
 }

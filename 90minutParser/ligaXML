@@ -1,200 +1,49 @@
-<liga name="I liga 2015/2016">
-	<druzyna name="Arka Gdynia">
-		<mecz>33</mecze>
-		<punkty>68</punkty>
-		<zwyciestwa>19</zwyciestwa>
-		<remisy>11</remisy>
-		<porazki>3</porazki>
-		<bramki>
-			<strzelone>59</strzelone>
-			<stracone>28</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Wisła Płock">
-		<mecz>33</mecze>
-		<punkty>63</punkty>
-		<zwyciestwa>19</zwyciestwa>
-		<remisy>6</remisy>
-		<porazki>8</porazki>
-		<bramki>
-			<strzelone>50</strzelone>
-			<stracone>26</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Zawisza Bydgoszcz">
-		<mecz>33</mecze>
-		<punkty>52</punkty>
-		<zwyciestwa>15</zwyciestwa>
-		<remisy>7</remisy>
-		<porazki>11</porazki>
-		<bramki>
-			<strzelone>56</strzelone>
-			<stracone>49</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Chrobry Głogów">
-		<mecz>33</mecze>
-		<punkty>50</punkty>
-		<zwyciestwa>14</zwyciestwa>
-		<remisy>8</remisy>
-		<porazki>11</porazki>
-		<bramki>
-			<strzelone>46</strzelone>
-			<stracone>32</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Zagłębie Sosnowiec">
-		<mecz>33</mecze>
-		<punkty>49</punkty>
-		<zwyciestwa>15</zwyciestwa>
-		<remisy>4</remisy>
-		<porazki>14</porazki>
-		<bramki>
-			<strzelone>51</strzelone>
-			<stracone>52</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="GKS Katowice">
-		<mecz>33</mecze>
-		<punkty>49</punkty>
-		<zwyciestwa>14</zwyciestwa>
-		<remisy>7</remisy>
-		<porazki>12</porazki>
-		<bramki>
-			<strzelone>40</strzelone>
-			<stracone>35</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Miedź Legnica">
-		<mecz>33</mecze>
-		<punkty>48</punkty>
-		<zwyciestwa>12</zwyciestwa>
-		<remisy>12</remisy>
-		<porazki>9</porazki>
-		<bramki>
-			<strzelone>40</strzelone>
-			<stracone>34</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Bytovia Bytów">
-		<mecz>33</mecze>
-		<punkty>48</punkty>
-		<zwyciestwa>11</zwyciestwa>
-		<remisy>15</remisy>
-		<porazki>7</porazki>
-		<bramki>
-			<strzelone>45</strzelone>
-			<stracone>39</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Stomil Olsztyn">
-		<mecz>33</mecze>
-		<punkty>44</punkty>
-		<zwyciestwa>11</zwyciestwa>
-		<remisy>11</remisy>
-		<porazki>11</porazki>
-		<bramki>
-			<strzelone>34</strzelone>
-			<stracone>41</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Sandecja Nowy Sącz">
-		<mecz>33</mecze>
-		<punkty>44</punkty>
-		<zwyciestwa>12</zwyciestwa>
-		<remisy>8</remisy>
-		<porazki>13</porazki>
-		<bramki>
-			<strzelone>50</strzelone>
-			<stracone>43</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Chojniczanka Chojnice">
-		<mecz>33</mecze>
-		<punkty>43</punkty>
-		<zwyciestwa>12</zwyciestwa>
-		<remisy>7</remisy>
-		<porazki>14</porazki>
-		<bramki>
-			<strzelone>40</strzelone>
-			<stracone>44</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Wigry Suwałki">
-		<mecz>33</mecze>
-		<punkty>42</punkty>
-		<zwyciestwa>11</zwyciestwa>
-		<remisy>9</remisy>
-		<porazki>13</porazki>
-		<bramki>
-			<strzelone>39</strzelone>
-			<stracone>34</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Olimpia Grudziądz">
-		<mecz>33</mecze>
-		<punkty>42</punkty>
-		<zwyciestwa>11</zwyciestwa>
-		<remisy>9</remisy>
-		<porazki>13</porazki>
-		<bramki>
-			<strzelone>38</strzelone>
-			<stracone>41</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="MKS Kluczbork">
-		<mecz>34</mecze>
-		<punkty>41</punkty>
-		<zwyciestwa>11</zwyciestwa>
-		<remisy>8</remisy>
-		<porazki>15</porazki>
-		<bramki>
-			<strzelone>40</strzelone>
-			<stracone>55</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Pogoń Siedlce">
-		<mecz>33</mecze>
-		<punkty>38</punkty>
-		<zwyciestwa>10</zwyciestwa>
-		<remisy>8</remisy>
-		<porazki>15</porazki>
-		<bramki>
-			<strzelone>30</strzelone>
-			<stracone>46</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Rozwój Katowice">
-		<mecz>33</mecze>
-		<punkty>35</punkty>
-		<zwyciestwa>11</zwyciestwa>
+<liga name="Klasa okręgowa 2015/2016, grupa: Lublin">
+	<druzyna name="POM Iskra Piotrowice">
+		<mecz>28</mecze>
+		<punkty>65</punkty>
+		<zwyciestwa>21</zwyciestwa>
 		<remisy>2</remisy>
-		<porazki>20</porazki>
+		<porazki>5</porazki>
 		<bramki>
-			<strzelone>35</strzelone>
-			<stracone>55</stracone>
+			<strzelone>74</strzelone>
+			<stracone>29</stracone>
 		</bramki>
-	</druzyna>
-	<druzyna name="GKS Bełchatów">
-		<mecz>33</mecze>
-		<punkty>35</punkty>
-		<zwyciestwa>9</zwyciestwa>
-		<remisy>8</remisy>
-		<porazki>16</porazki>
-		<bramki>
-			<strzelone>30</strzelone>
-			<stracone>39</stracone>
-		</bramki>
-	</druzyna>
-	<druzyna name="Dolcan Ząbki">
-		<mecz>34</mecze>
-		<punkty>30</punkty>
-		<zwyciestwa>8</zwyciestwa>
-		<remisy>6</remisy>
-		<porazki>20</porazki>
-		<bramki>
-			<strzelone>37</strzelone>
-			<stracone>67</stracone>
-		</bramki>
-	</druzyna>
+	</druzyna>		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+		[ERROR]
+
 </liga>

@@ -230,5 +230,6 @@ public class minut90BaseListener implements minut90Listener {
 
 	@Override
 	public void visitErrorNode(ErrorNode node) {
+		sb.append("\t\t" + "[ERROR]\n");
 	}
 }

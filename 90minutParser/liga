@@ -1,200 +1,178 @@
-liga("I liga 2015/2016"){
-	druzyna("Arka Gdynia"){
-		mecze(33)
-		punkty(68)
-		zwyciestwa(19)
-		remisy(11)
-		porazki(3)
+liga("Klasa okręgowa 2015/2016, grupa: Lublin"){
+	druzyna("POM Iskra Piotrowice"){
+		mecze(28)
+		punkty(65)
+		zwyciestwa(21)
+		remisy(2)
+		porazki(5)
 		bramki(){
-			strzelone(59)
-			stracone(28)
+			strzelone(74)
+			stracone(29)
 		}
 	}
-	druzyna("Wisła Płock"){
-		mecze(33)
+	druzyna("Stal Poniatowa"){
+		mecze(28)
 		punkty(63)
-		zwyciestwa(19)
-		remisy(6)
-		porazki(8)
+		zwyciestwa(20)
+		remisy(3)
+		porazki(5)
 		bramki(){
-			strzelone(50)
-			stracone(26)
+			strzelone(73)
+			stracone(31)
 		}
 	}
-	druzyna("Zawisza Bydgoszcz"){
-		mecze(33)
-		punkty(52)
-		zwyciestwa(15)
-		remisy(7)
-		porazki(11)
+	druzyna("Wisła II Puławy"){
+		mecze(28)
+		punkty(62)
+		zwyciestwa(20)
+		remisy(2)
+		porazki(6)
 		bramki(){
-			strzelone(56)
-			stracone(49)
+			strzelone(98)
+			stracone(42)
 		}
 	}
-	druzyna("Chrobry Głogów"){
-		mecze(33)
-		punkty(50)
-		zwyciestwa(14)
-		remisy(8)
-		porazki(11)
+	druzyna("Piaskovia Piaski"){
+		mecze(27)
+		punkty(57)
+		zwyciestwa(18)
+		remisy(3)
+		porazki(6)
 		bramki(){
-			strzelone(46)
-			stracone(32)
+			strzelone(80)
+			stracone(40)
 		}
 	}
-	druzyna("Zagłębie Sosnowiec"){
-		mecze(33)
+	druzyna("Ruch Ryki"){
+		mecze(28)
 		punkty(49)
 		zwyciestwa(15)
 		remisy(4)
-		porazki(14)
-		bramki(){
-			strzelone(51)
-			stracone(52)
-		}
-	}
-	druzyna("GKS Katowice"){
-		mecze(33)
-		punkty(49)
-		zwyciestwa(14)
-		remisy(7)
-		porazki(12)
-		bramki(){
-			strzelone(40)
-			stracone(35)
-		}
-	}
-	druzyna("Miedź Legnica"){
-		mecze(33)
-		punkty(48)
-		zwyciestwa(12)
-		remisy(12)
 		porazki(9)
 		bramki(){
-			strzelone(40)
-			stracone(34)
+			strzelone(82)
+			stracone(49)
 		}
 	}
-	druzyna("Bytovia Bytów"){
-		mecze(33)
-		punkty(48)
+	druzyna("Unia Wilkołaz"){
+		mecze(28)
+		punkty(49)
+		zwyciestwa(15)
+		remisy(4)
+		porazki(9)
+		bramki(){
+			strzelone(41)
+			stracone(45)
+		}
+	}
+	druzyna("Granit Bychawa"){
+		mecze(28)
+		punkty(45)
 		zwyciestwa(11)
-		remisy(15)
-		porazki(7)
+		remisy(12)
+		porazki(5)
 		bramki(){
-			strzelone(45)
-			stracone(39)
-		}
-	}
-	druzyna("Stomil Olsztyn"){
-		mecze(33)
-		punkty(44)
-		zwyciestwa(11)
-		remisy(11)
-		porazki(11)
-		bramki(){
-			strzelone(34)
-			stracone(41)
-		}
-	}
-	druzyna("Sandecja Nowy Sącz"){
-		mecze(33)
-		punkty(44)
-		zwyciestwa(12)
-		remisy(8)
-		porazki(13)
-		bramki(){
-			strzelone(50)
+			strzelone(65)
 			stracone(43)
 		}
 	}
-	druzyna("Chojniczanka Chojnice"){
-		mecze(33)
+	druzyna("GKS Niemce"){
+		mecze(28)
 		punkty(43)
-		zwyciestwa(12)
-		remisy(7)
-		porazki(14)
+		zwyciestwa(13)
+		remisy(4)
+		porazki(11)
 		bramki(){
-			strzelone(40)
-			stracone(44)
+			strzelone(58)
+			stracone(51)
 		}
 	}
-	druzyna("Wigry Suwałki"){
-		mecze(33)
-		punkty(42)
-		zwyciestwa(11)
-		remisy(9)
-		porazki(13)
-		bramki(){
-			strzelone(39)
-			stracone(34)
-		}
-	}
-	druzyna("Olimpia Grudziądz"){
-		mecze(33)
-		punkty(42)
-		zwyciestwa(11)
-		remisy(9)
-		porazki(13)
-		bramki(){
-			strzelone(38)
-			stracone(41)
-		}
-	}
-	druzyna("MKS Kluczbork"){
-		mecze(34)
-		punkty(41)
-		zwyciestwa(11)
-		remisy(8)
-		porazki(15)
-		bramki(){
-			strzelone(40)
-			stracone(55)
-		}
-	}
-	druzyna("Pogoń Siedlce"){
-		mecze(33)
+	druzyna("Perła Borzechów"){
+		mecze(28)
 		punkty(38)
-		zwyciestwa(10)
-		remisy(8)
-		porazki(15)
-		bramki(){
-			strzelone(30)
-			stracone(46)
-		}
-	}
-	druzyna("Rozwój Katowice"){
-		mecze(33)
-		punkty(35)
 		zwyciestwa(11)
-		remisy(2)
-		porazki(20)
+		remisy(5)
+		porazki(12)
 		bramki(){
-			strzelone(35)
-			stracone(55)
+			strzelone(67)
+			stracone(61)
 		}
 	}
-	druzyna("GKS Bełchatów"){
-		mecze(33)
-		punkty(35)
-		zwyciestwa(9)
-		remisy(8)
+	druzyna("KS Dąbrowica"){
+		mecze(28)
+		punkty(37)
+		zwyciestwa(11)
+		remisy(4)
+		porazki(13)
+		bramki(){
+			strzelone(54)
+			stracone(57)
+		}
+	}
+	druzyna("Płomień Trzydnik Duży"){
+		mecze(28)
+		punkty(26)
+		zwyciestwa(8)
+		remisy(2)
+		porazki(18)
+		bramki(){
+			strzelone(46)
+			stracone(80)
+		}
+	}
+	druzyna("Orły Kazimierz Dolny"){
+		mecze(28)
+		punkty(26)
+		zwyciestwa(7)
+		remisy(5)
 		porazki(16)
 		bramki(){
-			strzelone(30)
-			stracone(39)
+			strzelone(45)
+			stracone(73)
 		}
 	}
-	druzyna("Dolcan Ząbki"){
-		mecze(34)
-		punkty(30)
+	druzyna("Iskra Krzemień"){
+		mecze(28)
+		punkty(26)
 		zwyciestwa(8)
-		remisy(6)
-		porazki(20)
+		remisy(2)
+		porazki(18)
 		bramki(){
-			strzelone(37)
+			strzelone(46)
+			stracone(86)
+		}
+	}
+	druzyna("Tęcza Bełżyce"){
+		mecze(28)
+		punkty(21)
+		zwyciestwa(6)
+		remisy(3)
+		porazki(19)
+		bramki(){
+			strzelone(38)
+			stracone(76)
+		}
+	}
+	druzyna("Tajfun Ostrów Lubelski"){
+		mecze(27)
+		punkty(20)
+		zwyciestwa(5)
+		remisy(5)
+		porazki(17)
+		bramki(){
+			strzelone(26)
 			stracone(67)
+		}
+	}
+	druzyna("LZS Wierzchowiska"){
+		mecze(28)
+		punkty(11)
+		zwyciestwa(3)
+		remisy(2)
+		porazki(23)
+		bramki(){
+			strzelone(34)
+			stracone(97)
 		}
 	}
 }

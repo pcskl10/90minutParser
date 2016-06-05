@@ -728,7 +728,7 @@ public class minut90Parser extends Parser {
 		}
 	}
 	
-	public static void main(String[] args) {
+	public static void generateJSON() {
 		try {
 			ANTLRInputStream is = new ANTLRInputStream(new BufferedReader(new FileReader("liga")));
 			// ANTLRInputStream is = new ANTLRInputStream(System.in);
