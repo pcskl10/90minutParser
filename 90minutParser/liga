@@ -1,4 +1,4 @@
-LIGA("I liga 832"){
+liga("I liga 2015/2016"){
 	druzyna("Arka Gdynia"){
 		mecze(33)
 		punkty(68)
