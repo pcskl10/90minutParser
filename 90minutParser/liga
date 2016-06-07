@@ -1,178 +1,156 @@
-liga("Klasa okręgowa 2015/2016, grupa: Lublin"){
-	druzyna("POM Iskra Piotrowice"){
-		mecze(28)
+liga("Klasa B 2015/2016, grupa: Biała Podlaska II"){
+	druzyna("Bór Dąbie"){
+		mecze(24)
 		punkty(65)
 		zwyciestwa(21)
 		remisy(2)
-		porazki(5)
+		porazki(1)
 		bramki(){
-			strzelone(74)
-			stracone(29)
+			strzelone(96)
+			stracone(14)
 		}
 	}
-	druzyna("Stal Poniatowa"){
-		mecze(28)
-		punkty(63)
-		zwyciestwa(20)
+	druzyna("ULKS Dębowica"){
+		mecze(24)
+		punkty(60)
+		zwyciestwa(19)
 		remisy(3)
-		porazki(5)
+		porazki(2)
+		bramki(){
+			strzelone(68)
+			stracone(17)
+		}
+	}
+	druzyna("Polesie Serokomla"){
+		mecze(24)
+		punkty(52)
+		zwyciestwa(17)
+		remisy(1)
+		porazki(6)
+		bramki(){
+			strzelone(69)
+			stracone(30)
+		}
+	}
+	druzyna("Tur Turze Rogi"){
+		mecze(24)
+		punkty(48)
+		zwyciestwa(15)
+		remisy(3)
+		porazki(6)
+		bramki(){
+			strzelone(70)
+			stracone(38)
+		}
+	}
+	druzyna("Orlęta Gołaszyn"){
+		mecze(24)
+		punkty(42)
+		zwyciestwa(13)
+		remisy(3)
+		porazki(8)
 		bramki(){
 			strzelone(73)
-			stracone(31)
+			stracone(46)
 		}
 	}
-	druzyna("Wisła II Puławy"){
-		mecze(28)
-		punkty(62)
-		zwyciestwa(20)
-		remisy(2)
-		porazki(6)
-		bramki(){
-			strzelone(98)
-			stracone(42)
-		}
-	}
-	druzyna("Piaskovia Piaski"){
-		mecze(27)
-		punkty(57)
-		zwyciestwa(18)
-		remisy(3)
-		porazki(6)
-		bramki(){
-			strzelone(80)
-			stracone(40)
-		}
-	}
-	druzyna("Ruch Ryki"){
-		mecze(28)
-		punkty(49)
-		zwyciestwa(15)
-		remisy(4)
-		porazki(9)
-		bramki(){
-			strzelone(82)
-			stracone(49)
-		}
-	}
-	druzyna("Unia Wilkołaz"){
-		mecze(28)
-		punkty(49)
-		zwyciestwa(15)
-		remisy(4)
-		porazki(9)
-		bramki(){
-			strzelone(41)
-			stracone(45)
-		}
-	}
-	druzyna("Granit Bychawa"){
-		mecze(28)
-		punkty(45)
-		zwyciestwa(11)
-		remisy(12)
-		porazki(5)
+	druzyna("WKS Wólka Świątkowa"){
+		mecze(24)
+		punkty(41)
+		zwyciestwa(12)
+		remisy(5)
+		porazki(7)
 		bramki(){
 			strzelone(65)
-			stracone(43)
+			stracone(35)
 		}
 	}
-	druzyna("GKS Niemce"){
-		mecze(28)
-		punkty(43)
-		zwyciestwa(13)
-		remisy(4)
-		porazki(11)
+	druzyna("Wóldom Wólka Domaszewska"){
+		mecze(23)
+		punkty(33)
+		zwyciestwa(10)
+		remisy(3)
+		porazki(10)
 		bramki(){
-			strzelone(58)
-			stracone(51)
+			strzelone(51)
+			stracone(48)
 		}
 	}
-	druzyna("Perła Borzechów"){
-		mecze(28)
-		punkty(38)
-		zwyciestwa(11)
-		remisy(5)
+	druzyna("Armaty Stoczek Łukowski"){
+		mecze(24)
+		punkty(30)
+		zwyciestwa(9)
+		remisy(3)
 		porazki(12)
 		bramki(){
-			strzelone(67)
-			stracone(61)
+			strzelone(56)
+			stracone(58)
 		}
 	}
-	druzyna("KS Dąbrowica"){
-		mecze(28)
-		punkty(37)
-		zwyciestwa(11)
-		remisy(4)
-		porazki(13)
-		bramki(){
-			strzelone(54)
-			stracone(57)
-		}
-	}
-	druzyna("Płomień Trzydnik Duży"){
-		mecze(28)
-		punkty(26)
-		zwyciestwa(8)
-		remisy(2)
-		porazki(18)
-		bramki(){
-			strzelone(46)
-			stracone(80)
-		}
-	}
-	druzyna("Orły Kazimierz Dolny"){
-		mecze(28)
-		punkty(26)
-		zwyciestwa(7)
-		remisy(5)
-		porazki(16)
-		bramki(){
-			strzelone(45)
-			stracone(73)
-		}
-	}
-	druzyna("Iskra Krzemień"){
-		mecze(28)
-		punkty(26)
-		zwyciestwa(8)
-		remisy(2)
-		porazki(18)
-		bramki(){
-			strzelone(46)
-			stracone(86)
-		}
-	}
-	druzyna("Tęcza Bełżyce"){
-		mecze(28)
-		punkty(21)
-		zwyciestwa(6)
+	druzyna("Orzeł Zalesie"){
+		mecze(24)
+		punkty(30)
+		zwyciestwa(9)
 		remisy(3)
-		porazki(19)
+		porazki(12)
 		bramki(){
-			strzelone(38)
-			stracone(76)
-		}
-	}
-	druzyna("Tajfun Ostrów Lubelski"){
-		mecze(27)
-		punkty(20)
-		zwyciestwa(5)
-		remisy(5)
-		porazki(17)
-		bramki(){
-			strzelone(26)
+			strzelone(46)
 			stracone(67)
 		}
 	}
-	druzyna("LZS Wierzchowiska"){
-		mecze(28)
-		punkty(11)
-		zwyciestwa(3)
+	druzyna("Sokół Krynka"){
+		mecze(24)
+		punkty(27)
+		zwyciestwa(8)
+		remisy(3)
+		porazki(13)
+		bramki(){
+			strzelone(53)
+			stracone(67)
+		}
+	}
+	druzyna("Unia II Krzywda"){
+		mecze(24)
+		punkty(26)
+		zwyciestwa(8)
 		remisy(2)
-		porazki(23)
+		porazki(14)
+		bramki(){
+			strzelone(41)
+			stracone(69)
+		}
+	}
+	druzyna("Perła Dwornia"){
+		mecze(24)
+		punkty(15)
+		zwyciestwa(5)
+		remisy(0)
+		porazki(19)
 		bramki(){
 			strzelone(34)
-			stracone(97)
+			stracone(75)
+		}
+	}
+	druzyna("Gręzovia II Gręzówka"){
+		mecze(23)
+		punkty(3)
+		zwyciestwa(1)
+		remisy(0)
+		porazki(22)
+		bramki(){
+			strzelone(15)
+			stracone(131)
+		}
+	}
+	druzyna("Orlik Wola Bystrzycka"){
+		mecze(24)
+		punkty(13)
+		zwyciestwa(4)
+		remisy(1)
+		porazki(19)
+		bramki(){
+			strzelone(18)
+			stracone(60)
 		}
 	}
 }

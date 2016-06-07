@@ -32,18 +32,10 @@ public class GuiWindow extends JFrame {
 	public GuiWindow() {
 	}
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-	static String[] tokens;
-	static int radioOption = 0;
-	static BigInteger[] bigElements;
-	public static boolean flag = false;
 
 	private static void createAndShowGUI() {
 
-		final JFrame frame1 = new JFrame("Problem podzia³u zbioru");
+		final JFrame frame1 = new JFrame("minut90");
 		frame1.setSize(650, 900);
 		frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame1.setVisible(true);

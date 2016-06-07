@@ -1,55 +1,175 @@
 {
 	"liga": {
-		"nazwa": "Klasa okręgowa 2015/2016, grupa: Lublin"
+		"nazwa": "Klasa B 2015/2016, grupa: Biała Podlaska II"
 		"druzyny": [
 			"druzyna": {
-				"nazwa": "POM Iskra Piotrowice"
-				"mecze": 28
+				"nazwa": "Bór Dąbie"
+				"mecze": 24
 				"punkty": 65
 				"zwyciestwa": 21
 				"remisy": 2
-				"porazki": 5
+				"porazki": 1
 				"bramki": {
-					"strzelone": 74
-					"stracone": 29
+					"strzelone": 96
+					"stracone": 14
 				}
 			}
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
-			[ERROR]
+			"druzyna": {
+				"nazwa": "ULKS Dębowica"
+				"mecze": 24
+				"punkty": 60
+				"zwyciestwa": 19
+				"remisy": 3
+				"porazki": 2
+				"bramki": {
+					"strzelone": 68
+					"stracone": 17
+				}
+			}
+			"druzyna": {
+				"nazwa": "Polesie Serokomla"
+				"mecze": 24
+				"punkty": 52
+				"zwyciestwa": 17
+				"remisy": 1
+				"porazki": 6
+				"bramki": {
+					"strzelone": 69
+					"stracone": 30
+				}
+			}
+			"druzyna": {
+				"nazwa": "Tur Turze Rogi"
+				"mecze": 24
+				"punkty": 48
+				"zwyciestwa": 15
+				"remisy": 3
+				"porazki": 6
+				"bramki": {
+					"strzelone": 70
+					"stracone": 38
+				}
+			}
+			"druzyna": {
+				"nazwa": "Orlęta Gołaszyn"
+				"mecze": 24
+				"punkty": 42
+				"zwyciestwa": 13
+				"remisy": 3
+				"porazki": 8
+				"bramki": {
+					"strzelone": 73
+					"stracone": 46
+				}
+			}
+			"druzyna": {
+				"nazwa": "WKS Wólka Świątkowa"
+				"mecze": 24
+				"punkty": 41
+				"zwyciestwa": 12
+				"remisy": 5
+				"porazki": 7
+				"bramki": {
+					"strzelone": 65
+					"stracone": 35
+				}
+			}
+			"druzyna": {
+				"nazwa": "Wóldom Wólka Domaszewska"
+				"mecze": 23
+				"punkty": 33
+				"zwyciestwa": 10
+				"remisy": 3
+				"porazki": 10
+				"bramki": {
+					"strzelone": 51
+					"stracone": 48
+				}
+			}
+			"druzyna": {
+				"nazwa": "Armaty Stoczek �?ukowski"
+				"mecze": 24
+				"punkty": 30
+				"zwyciestwa": 9
+				"remisy": 3
+				"porazki": 12
+				"bramki": {
+					"strzelone": 56
+					"stracone": 58
+				}
+			}
+			"druzyna": {
+				"nazwa": "Orzeł Zalesie"
+				"mecze": 24
+				"punkty": 30
+				"zwyciestwa": 9
+				"remisy": 3
+				"porazki": 12
+				"bramki": {
+					"strzelone": 46
+					"stracone": 67
+				}
+			}
+			"druzyna": {
+				"nazwa": "Sokół Krynka"
+				"mecze": 24
+				"punkty": 27
+				"zwyciestwa": 8
+				"remisy": 3
+				"porazki": 13
+				"bramki": {
+					"strzelone": 53
+					"stracone": 67
+				}
+			}
+			"druzyna": {
+				"nazwa": "Unia II Krzywda"
+				"mecze": 24
+				"punkty": 26
+				"zwyciestwa": 8
+				"remisy": 2
+				"porazki": 14
+				"bramki": {
+					"strzelone": 41
+					"stracone": 69
+				}
+			}
+			"druzyna": {
+				"nazwa": "Perła Dwornia"
+				"mecze": 24
+				"punkty": 15
+				"zwyciestwa": 5
+				"remisy": 0
+				"porazki": 19
+				"bramki": {
+					"strzelone": 34
+					"stracone": 75
+				}
+			}
+			"druzyna": {
+				"nazwa": "Gręzovia II Gręzówka"
+				"mecze": 23
+				"punkty": 3
+				"zwyciestwa": 1
+				"remisy": 0
+				"porazki": 22
+				"bramki": {
+					"strzelone": 15
+					"stracone": 131
+				}
+			}
+			"druzyna": {
+				"nazwa": "Orlik Wola Bystrzycka"
+				"mecze": 24
+				"punkty": 13
+				"zwyciestwa": 4
+				"remisy": 1
+				"porazki": 19
+				"bramki": {
+					"strzelone": 18
+					"stracone": 60
+				}
+			}
 		]
 	}
 }

@@ -1,49 +1,156 @@
-<liga name="Klasa okręgowa 2015/2016, grupa: Lublin">
-	<druzyna name="POM Iskra Piotrowice">
-		<mecz>28</mecze>
+<liga name="Klasa B 2015/2016, grupa: Biała Podlaska II">
+	<druzyna name="Bór Dąbie">
+		<mecz>24</mecze>
 		<punkty>65</punkty>
 		<zwyciestwa>21</zwyciestwa>
 		<remisy>2</remisy>
-		<porazki>5</porazki>
+		<porazki>1</porazki>
 		<bramki>
-			<strzelone>74</strzelone>
-			<stracone>29</stracone>
+			<strzelone>96</strzelone>
+			<stracone>14</stracone>
 		</bramki>
-	</druzyna>		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-		[ERROR]
-
+	</druzyna>
+	<druzyna name="ULKS Dębowica">
+		<mecz>24</mecze>
+		<punkty>60</punkty>
+		<zwyciestwa>19</zwyciestwa>
+		<remisy>3</remisy>
+		<porazki>2</porazki>
+		<bramki>
+			<strzelone>68</strzelone>
+			<stracone>17</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Polesie Serokomla">
+		<mecz>24</mecze>
+		<punkty>52</punkty>
+		<zwyciestwa>17</zwyciestwa>
+		<remisy>1</remisy>
+		<porazki>6</porazki>
+		<bramki>
+			<strzelone>69</strzelone>
+			<stracone>30</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Tur Turze Rogi">
+		<mecz>24</mecze>
+		<punkty>48</punkty>
+		<zwyciestwa>15</zwyciestwa>
+		<remisy>3</remisy>
+		<porazki>6</porazki>
+		<bramki>
+			<strzelone>70</strzelone>
+			<stracone>38</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Orlęta Gołaszyn">
+		<mecz>24</mecze>
+		<punkty>42</punkty>
+		<zwyciestwa>13</zwyciestwa>
+		<remisy>3</remisy>
+		<porazki>8</porazki>
+		<bramki>
+			<strzelone>73</strzelone>
+			<stracone>46</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="WKS Wólka Świątkowa">
+		<mecz>24</mecze>
+		<punkty>41</punkty>
+		<zwyciestwa>12</zwyciestwa>
+		<remisy>5</remisy>
+		<porazki>7</porazki>
+		<bramki>
+			<strzelone>65</strzelone>
+			<stracone>35</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Wóldom Wólka Domaszewska">
+		<mecz>23</mecze>
+		<punkty>33</punkty>
+		<zwyciestwa>10</zwyciestwa>
+		<remisy>3</remisy>
+		<porazki>10</porazki>
+		<bramki>
+			<strzelone>51</strzelone>
+			<stracone>48</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Armaty Stoczek �?ukowski">
+		<mecz>24</mecze>
+		<punkty>30</punkty>
+		<zwyciestwa>9</zwyciestwa>
+		<remisy>3</remisy>
+		<porazki>12</porazki>
+		<bramki>
+			<strzelone>56</strzelone>
+			<stracone>58</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Orzeł Zalesie">
+		<mecz>24</mecze>
+		<punkty>30</punkty>
+		<zwyciestwa>9</zwyciestwa>
+		<remisy>3</remisy>
+		<porazki>12</porazki>
+		<bramki>
+			<strzelone>46</strzelone>
+			<stracone>67</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Sokół Krynka">
+		<mecz>24</mecze>
+		<punkty>27</punkty>
+		<zwyciestwa>8</zwyciestwa>
+		<remisy>3</remisy>
+		<porazki>13</porazki>
+		<bramki>
+			<strzelone>53</strzelone>
+			<stracone>67</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Unia II Krzywda">
+		<mecz>24</mecze>
+		<punkty>26</punkty>
+		<zwyciestwa>8</zwyciestwa>
+		<remisy>2</remisy>
+		<porazki>14</porazki>
+		<bramki>
+			<strzelone>41</strzelone>
+			<stracone>69</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Perła Dwornia">
+		<mecz>24</mecze>
+		<punkty>15</punkty>
+		<zwyciestwa>5</zwyciestwa>
+		<remisy>0</remisy>
+		<porazki>19</porazki>
+		<bramki>
+			<strzelone>34</strzelone>
+			<stracone>75</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Gręzovia II Gręzówka">
+		<mecz>23</mecze>
+		<punkty>3</punkty>
+		<zwyciestwa>1</zwyciestwa>
+		<remisy>0</remisy>
+		<porazki>22</porazki>
+		<bramki>
+			<strzelone>15</strzelone>
+			<stracone>131</stracone>
+		</bramki>
+	</druzyna>
+	<druzyna name="Orlik Wola Bystrzycka">
+		<mecz>24</mecze>
+		<punkty>13</punkty>
+		<zwyciestwa>4</zwyciestwa>
+		<remisy>1</remisy>
+		<porazki>19</porazki>
+		<bramki>
+			<strzelone>18</strzelone>
+			<stracone>60</stracone>
+		</bramki>
+	</druzyna>
 </liga>

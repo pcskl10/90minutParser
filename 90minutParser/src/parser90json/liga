@@ -1,5 +1,5 @@
 liga("I liga 2015/2016"){
-	druzyna("Arka Gdyn6ia"){
+	druzyna("Arka Gdynia"){
 		mecze(33)
 		punkty(68)
 		zwyciestwa(19)
@@ -10,7 +10,7 @@ liga("I liga 2015/2016"){
 			stracone(28)
 		}
 	}
-	druzyna("Wis³a P³ock 88"){
+	druzyna("Wis³a P³ock"){
 		mecze(33)
 		punkty(63)
 		zwyciestwa(19)
@@ -21,7 +21,7 @@ liga("I liga 2015/2016"){
 			stracone(26)
 		}
 	}
-	druzyna("67 Zawisza Bydgoszcz"){
+	druzyna("Zawisza Bydgoszcz"){
 		mecze(33)
 		punkty(52)
 		zwyciestwa(15)
